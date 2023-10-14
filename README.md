@@ -172,35 +172,35 @@
     </tr>
     <tr>
         <td colspan="2">
-            <p>
-                <strong>项目职责:</strong><br/> 
-        		产品所有人(PO)，引入项目并确认需求边界。<br/>
-				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br/>
-				完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br/>
-                <strong>项目描述:</strong> <br/>
-                本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br/>
-                本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br/>
-                为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
-                <ul>
-                    <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
-                   	<li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
-                    <li>实体管理部分使用了<b>alibaba-canal搭配RabbitMQ进行数据一致性同步</b>，将宿舍数据同步到ElasticSearch与Redis。ElasticSearch对外提供基于工作单位的宿舍就近匹配与搜索；Redis哨兵集群则用于热点数据缓存，同时进行了缓存击穿与缓存雪崩的预防。</li>
-                    <li>申请电子流服务使用了<b>阿里云SchedulerX2</b>实现了超期申请自动关闭的功能。</li>
-                    <li>财务服务使用POI配合阿里云OSS实现表单导出。使用了阿里云SchedulerX2实现了定期生成住宿费订单的功能。同时使用RabbitMQ的延迟队列插件实现了超时支付宝订单自动关闭的功能。</li>
-             		<li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
-                    <li>由于涉及到跨服务大事务，项目中<b>使用alibaba-seata进行分布式事务管理</b>。</li>
-                    <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
-                    <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
-            	</ul>
-				<strong>项目架构图:</strong><br/>
-				<img alt="哦吼,图片不见了" src="https://cdn.jsdelivr.net/gh/WangMinan/Pics/20230707110334.png"/> <br />
-	          	<strong>项目地址:</strong><br/>
-	            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
-	                https://github.com/npu-apartment-management-system-team/repositories
-	            </a>
+            <strong>项目职责:</strong><br/> 
+            产品所有人(PO)，引入项目并确认需求边界。<br/>
+            完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br/>
+            完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br/>
+            <strong>项目描述:</strong> <br/>
+            本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br/>
+            本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br/>
+            为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
+            <ul>
+                <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
+                <li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
+                <li>实体管理部分使用了<b>alibaba-canal搭配RabbitMQ进行数据一致性同步</b>，将宿舍数据同步到ElasticSearch与Redis。ElasticSearch对外提供基于工作单位的宿舍就近匹配与搜索；Redis哨兵集群则用于热点数据缓存，同时进行了缓存击穿与缓存雪崩的预防。</li>
+                <li>申请电子流服务使用了<b>阿里云SchedulerX2</b>实现了超期申请自动关闭的功能。</li>
+                <li>财务服务使用POI配合阿里云OSS实现表单导出。使用了阿里云SchedulerX2实现了定期生成住宿费订单的功能。同时使用RabbitMQ的延迟队列插件实现了超时支付宝订单自动关闭的功能。</li>
+                <li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
+                <li>由于涉及到跨服务大事务，项目中<b>使用alibaba-seata进行分布式事务管理</b>。</li>
+                <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
+                <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
+            </ul>
+            <strong>项目架构图:</strong><br/>
+            <img alt="哦吼,图片不见了" src="https://cdn.jsdelivr.net/gh/WangMinan/Pics/20230707110334.png"/> <br />
+            <strong>项目地址:</strong><br/>
+            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
+                https://github.com/npu-apartment-management-system-team/repositories
+            </a>
 	    </td>
 	</tr>
 </table>
+
 
 
 ##### 项目经历-2
