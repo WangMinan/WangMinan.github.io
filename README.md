@@ -260,7 +260,7 @@
                 <li>
                     后端主要使用了
                     <ul>
-                        <li>SpringBoot3 + SpringCloud的一些基础的中间件 + MySQL + Redis + ElasticSearch + XXL-JOB
+                        <li>SpringBoot3 + SpringCloud的一些基础的中间件 + MySQL + Redis + ElasticSearch + XXL-JOB</li>
                         <li>引入了阿里云OSS，阿里云OCR，支付宝支付的SDK</li>
                     </ul>
                 </li>
