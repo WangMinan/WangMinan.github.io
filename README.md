@@ -71,7 +71,7 @@
     </tr>
     <tr>
         <td colspan="2">
-            <b>毕业设计</b> <br/>
+            <b>毕业设计</b> <br>
             嵌入式容器云监控系统的设计与实现
         </td>
     </tr>
@@ -151,8 +151,8 @@
     <tr>
         <td colspan="2">
             <p>
-                <strong>工作职责:</strong><br/>
-                项目组长，负责实习项目的需求分析与架构设计。<br/>
+                <strong>工作职责:</strong><br>
+                项目组长，负责实习项目的需求分析与架构设计。<br>
                 <ul>
                    	<li>
                         完成后端几乎所有代码编写工作。 同时负责基于GitHub Actions的后端CI/CD.
@@ -161,10 +161,10 @@
                         通过SonarQube完成代码规范性检查并修正代码异味。
                     </li>
             	</ul>
-                <strong>项目简介:</strong><br/>
-            本项目为四川华迪实习期间完成项目。 通过爬虫从提供餐饮评估信息的网页的公开接口中获得西安各商圈的餐饮行业的有关信息。在经过一定的分析后展现在数据中台上，提供基于区划或类别的排序功能。同时为用户提供分类、关键字、基于地理位置的检索功能。 <br/>
-                项目技术栈：后端主要使用了SpringBoot + MybatisPlus + ElasticSearch <br/>
-            <strong>项目地址:</strong><br/>
+                <strong>项目简介:</strong><br>
+            本项目为四川华迪实习期间完成项目。 通过爬虫从提供餐饮评估信息的网页的公开接口中获得西安各商圈的餐饮行业的有关信息。在经过一定的分析后展现在数据中台上，提供基于区划或类别的排序功能。同时为用户提供分类、关键字、基于地理位置的检索功能。 <br>
+                项目技术栈：后端主要使用了SpringBoot + MybatisPlus + ElasticSearch <br>
+            <strong>项目地址:</strong><br>
             <a style="text-decoration: none; color: black" href="https://github.com/WangMinan/bigdata_practice">https://github.com/WangMinan/bigdata_practice</a>
             </p>
         </td>
@@ -189,13 +189,13 @@
     <tr>
         <td colspan="2">
             <p>
-                <strong>项目职责:</strong><br/> 
-        		产品所有人(PO)，引入项目并确认需求边界。<br/>
-				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br/>
-				完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br/>
-                <strong>项目描述:</strong> <br/>
-                本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br/>
-                本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br/>
+                <strong>项目职责:</strong><br> 
+        		产品所有人(PO)，引入项目并确认需求边界。<br>
+				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br>
+				完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br>
+                <strong>项目描述:</strong> <br>
+                本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
+                本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br>
                 为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
                 <ul>
                     <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
@@ -208,9 +208,9 @@
                     <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
                     <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
             	</ul>
-				<strong>项目架构图:</strong><br/>
-				<img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/> <br />
-	          	<strong>项目地址:</strong><br/>
+				<strong>项目架构图:</strong>
+				<img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/>
+	          	<strong>项目地址:</strong><br>
 	            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
 	                https://github.com/npu-apartment-management-system-team/repositories
 	            </a>
@@ -232,19 +232,19 @@
     </tr>
     <tr>
         <td colspan="2">
-            <strong>项目职责:</strong><br />
-            项目组长，负责课程项目的技术选型与架构设计。<br />
-            完成了从前端到后端几乎所有代码编写工作。<br />
-            完成了基于Github Actions与Docker的项目分布式部署 <br />
-            <strong>项目描述:</strong> <br />
-            本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br />
+            <strong>项目职责:</strong><br>
+            项目组长，负责课程项目的技术选型与架构设计。<br>
+            完成了从前端到后端几乎所有代码编写工作。<br>
+            完成了基于Github Actions与Docker的项目分布式部署 <br>
+            <strong>项目描述:</strong> <br>
+            本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
             由于我校地处长安远郊，该软件为我校学生提供了一个<b>拼车平台</b>。
             软件用户分为<b>司机、乘客与管理员</b>三个角色，用户可以同时是司机与乘客。
             软件为司机提供了发布拼车行程，筛选乘客的功能。
             为乘客提供了搜索拼车行程，与司机聊天协商，选择拼车行程，拼车订单管理以及付款功能。
-            管理员则具有导出拼车情况表单与表彰司机的权限。<br />
+            管理员则具有导出拼车情况表单与表彰司机的权限。<br>
             项目拆分为<b>网关、auth服务、鉴权SDK、用户信息服务、行程服务、订单服务、支付服务</b>等多个微服务模块，
-            通过Docker-Compose配合DockerHub个人仓库进行部署。<br />
+            通过Docker-Compose配合DockerHub个人仓库进行部署。<br>
             <ul>
                 <li>项目使用nacos作为注册与配置中心，每个服务模块均部署了多个实例</li>
                 <li>auth服务使用了SpringSecurity结合JWT完成了基础的鉴权操作，使用了阿里云SMS实现短信验证码登录，使用了支付宝第三方OAuth实现了支付宝登录。</li>
@@ -252,7 +252,7 @@
                 <li>支付服务接入了支付宝，提供了订单查询，订单支付等解决方案。</li>
                 <li>使用基于XXL-JOB的分片广播机制设置了过期聊天记录定时清除，未完成数据操作重试与支付订单关闭的定时任务。</li>
             </ul>
-            <strong>项目技术栈:</strong><br />
+            <strong>项目技术栈:</strong><br>
             <ul>
                 <li>
                     前端主要使用了Vue3 + Vite + Vant(司机与乘客) + ElementPlus(管理员) + 高德地图SDK
@@ -265,7 +265,7 @@
                     </ul>
                 </li>
             </ul>
-            <strong>项目地址:</strong><br />
+            <strong>项目地址:</strong><br>
             <a style="text-decoration: none; color: black"
                 href="https://github.com/orgs/npu-carpooling-system-team/repositories">
                 https://github.com/orgs/npu-carpooling-system-team/repositories
