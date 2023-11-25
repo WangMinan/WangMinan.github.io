@@ -42,20 +42,20 @@
 ##### 教育经历-1
 <table>
     <tr>
-        <td style="width:50%">学历: 本科</td>
-        <td>起止时间: 2020.9-2024.7</td>
-    </tr>
-    <tr>
         <td style="width:50%"><b>学校: 西北工业大学</b></td>
         <td>院系与专业: 软件学院--软件工程</td>
     </tr>
     <tr>
+        <td style="width:50%">学历: 本科</td>
+        <td>起止时间: 2020.9-2024.7</td>
+    </tr>
+    <tr>
         <td style="width:50%">成绩排名: 前10%</td>
-        <td>绩点: 3.57/4.10</td>
+        <td>绩点: 3.62/4.10</td>
     </tr>
     <tr>
         <td colspan="2">
-            主修课程
+            <b>主修课程</b>
             <ul>
                 <li>
                     基础课程: 数据结构、计算机网络、计算机操作系统、计算组成原理、数据库系统、算法设计与分析
@@ -69,7 +69,18 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td colspan="2">
+            <b>毕业设计</b> <br/>
+            嵌入式容器云监控系统的设计与实现
+        </td>
+    </tr>
 </table>
+
+目前已推免至本院继续深造
+
+
+
 
 
 
@@ -77,14 +88,17 @@
 
 + 完成了软件工程基础的<b>系统学习</b>，熟知软件工程<b>敏捷开发</b>的基本流程，掌握从<b>需求管理</b>到<b>测试交付</b>的系列知识，有课程项目开发的完整经验，有使用<b>各类文档</b>协助开发工作的习惯。
 + 熟练掌握Java后端开发。对以<b>SpringBoot</b>为核心的技术栈有较丰富的使用经验。初步了解并会使用<b>SpringCloud</b>的部分中间件，有开发经验。
-+ 熟悉关系型数据库<b>MySQL</b>，项目中常用的ORM框架是MyBatisPlus。在华为云数据库服务产品部实习期间进一步学习了MySQL数据库binlog解析与全量、增量迁移方向的知识。
++ 熟悉并熟练使用关系型数据库<b>MySQL</b>，项目中常用的ORM框架是MyBatisPlus。了解分布式数据库PolarDBX。
 + 熟悉非关系型数据库<b>Redis,ElasticSeach</b>。在项目开发中有实际的使用经验。
-+ 了解<b>docker</b>。能够使用镜像仓库管理镜像制品，能过通过容器操作部署、管理与更新微服务应用。
++ 了解<b>Docker</b>。能够使用镜像仓库管理镜像制品，能过通过容器操作部署、管理与更新微服务应用。
++ 了解<b>Kubernetes</b>，对云原生有一定了解。
 + 熟悉<b>Vue3</b>框架，对应组件库Element Plus、Vant，以及有关路由与存储中间件，可以独立进行前端网页开发，对<b>JavaScript</b>有应用上的了解。
 + 对项目<b>CI/CD</b>与工作流有一定的了解，能够通过<b>编写GitHub Actions脚本</b>部署前端或后端应用。
 + 了解<b>Nginx</b>的基础使用，能够配置基本的网页解析、SSL加密与负载均衡。
 + 对CentOS与Almalinux有了解。有自己的阿里云服务器ECS/SWAS，云数据库RDS以与阿里云OSS。有站点搭建的相关经验。了解阿里云短信、阿里云OCR等系列服务。能熟练对接阿里系第三方服务接口。
 + 了解Node.js/Express.js框架，了解基础的node开发。
+
+
 
 
 
@@ -96,11 +110,11 @@
 <table>
     <tr>
         <td style="width:50%">公司: <b>华为云计算公司</b></td>
-        <td>起止时间: 2023-07-19 - 2024-02-07</td>
+        <td>起止时间: 2023-07-19 - 2024-01-19</td>
     </tr>
     <tr>
         <td colspan="2">
-            工作部门: 华为云计算公司-云服务产品部-数据库服务产品部-数据迁移与管理服务域项目群-<b>同构迁移DRS内核开发团队</b>-开源数据库方向
+            工作部门: 华为云计算公司-云服务产品部-数据库服务产品部-数据迁移与管理服务域项目群-<b>同构迁移DRS</b>-内核开发团队-<b>开源数据库方向</b>
         </td>
     </tr>
     <tr>
@@ -112,13 +126,15 @@
         <td colspan="2">
             <b>工作内容:</b>
             <ul>
-                <li>分布式数据库架构预研，迁移可能性评估。</li>
-                <li>对产品节点进行压力测试，了解产品性能瓶颈。</li>
+                <li>阅读Alibaba-Canal源码，并结合MySQL源码了解binlog解析原理</li>
+                <li>负责GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研，贡献内网镜像若干</li>
+                <li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是DDL语法解析适配</li>
+                <li>负责项目从JDK8向JDK17的迁移适配工作，切换javafx和部分sun包下依赖</li>
+                <li>编写压力测试工具，对产品模块进行压力测试，了解产品性能瓶颈。</li>
             </ul>
         </td>
     </tr>
 </table>
-
 
 
 ##### 实习经历-2-2023冬季实习
@@ -172,31 +188,32 @@
     </tr>
     <tr>
         <td colspan="2">
-            <strong>项目职责:</strong><br/> 
-            产品所有人(PO)，引入项目并确认需求边界。<br/>
-            完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br/>
-            完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br/>
-            <strong>项目描述:</strong> <br/>
-            本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br/>
-            本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br/>
-            为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
-            <ul>
-                <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
-                <li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
-                <li>实体管理部分使用了<b>alibaba-canal搭配RabbitMQ进行数据一致性同步</b>，将宿舍数据同步到ElasticSearch与Redis。ElasticSearch对外提供基于工作单位的宿舍就近匹配与搜索；Redis哨兵集群则用于热点数据缓存，同时进行了缓存击穿与缓存雪崩的预防。</li>
-                <li>申请电子流服务使用了<b>阿里云SchedulerX2</b>实现了超期申请自动关闭的功能。</li>
-                <li>财务服务使用POI配合阿里云OSS实现表单导出。使用了阿里云SchedulerX2实现了定期生成住宿费订单的功能。同时使用RabbitMQ的延迟队列插件实现了超时支付宝订单自动关闭的功能。</li>
-                <li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
-                <li>由于涉及到跨服务大事务，项目中<b>使用alibaba-seata进行分布式事务管理</b>。</li>
-                <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
-                <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
-            </ul>
-            <strong>项目架构图:</strong><br/>
-            <img alt="哦吼,图片不见了" src="https://cdn.jsdelivr.net/gh/WangMinan/Pics/20230707110334.png"/> <br />
-            <strong>项目地址:</strong><br/>
-            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
-                https://github.com/npu-apartment-management-system-team/repositories
-            </a>
+            <p>
+                <strong>项目职责:</strong><br/> 
+        		产品所有人(PO)，引入项目并确认需求边界。<br/>
+				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br/>
+				完成了基于Github Actions与<strong>Kubernetes</strong>的项目部署 <br/>
+                <strong>项目描述:</strong> <br/>
+                本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br/>
+                本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br/>
+                为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
+                <ul>
+                    <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
+                   	<li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
+                    <li>实体管理部分使用了<b>alibaba-canal搭配RabbitMQ进行数据一致性同步</b>，将宿舍数据同步到ElasticSearch与Redis。ElasticSearch对外提供基于工作单位的宿舍就近匹配与搜索；Redis哨兵集群则用于热点数据缓存，同时进行了缓存击穿与缓存雪崩的预防。</li>
+                    <li>申请电子流服务使用了<b>阿里云SchedulerX2</b>实现了超期申请自动关闭的功能。</li>
+                    <li>财务服务使用POI配合阿里云OSS实现表单导出。使用了阿里云SchedulerX2实现了定期生成住宿费订单的功能。同时使用RabbitMQ的延迟队列插件实现了超时支付宝订单自动关闭的功能。</li>
+             		<li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
+                    <li>由于涉及到跨服务大事务，项目中<b>使用alibaba-seata进行分布式事务管理</b>。</li>
+                    <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
+                    <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
+            	</ul>
+				<strong>项目架构图:</strong><br/>
+				<img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/> <br />
+	          	<strong>项目地址:</strong><br/>
+	            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
+	                https://github.com/npu-apartment-management-system-team/repositories
+	            </a>
 	    </td>
 	</tr>
 </table>
@@ -261,8 +278,8 @@
 
 ## 学科竞赛
 
-+ 2022陕西省大学生创新创业训练计划-基于心理诱导的监所警员心理保障与管理系统-合格结题
-+ 第十八届“挑战杯”全国大学生课外学术科技作品竞赛“揭榜挂帅”专项赛-基于信创的学习迁移模型构建知识图谱-二等奖
++ 2022陕西省大学生创新创业训练计划-基于心理诱导的监所警员心理保障与管理系统-省级合格结题
++ 2023-第十八届“挑战杯”全国大学生课外学术科技作品竞赛“揭榜挂帅”专项赛-基于信创的学习迁移模型构建知识图谱-全国二等奖
 
 
 
