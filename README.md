@@ -138,7 +138,7 @@
                     </p>
                     <ul>
                         <li>负责分布式数据库如GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研，贡献内网镜像若干</li>
-                		<li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antle对PolarDBX的特殊DDL语法进行解析适配</li>
+                		<li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antlr对PolarDBX的特殊DDL语法进行解析适配</li>
                         <li>适配PerconaXtraDBCluster的部分LogEvent</li>
                     </ul>
                 </li>
