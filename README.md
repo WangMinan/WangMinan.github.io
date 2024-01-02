@@ -31,7 +31,7 @@
             </tr>
             <tr>
                 <td colspan="2">           
-                       GitHub个人主页: <a style="text-decoration: none; color: black" href="https://github.com/WangMinan">https://github.com/WangMinan(欢迎访问)</a> 
+                       GitHub个人主页: <a style="text-decoration: none;" href="https://github.com/WangMinan">https://github.com/wangminan</a> 
                 </td>
             </tr>
         </table>
@@ -40,13 +40,18 @@
     	<img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/%E7%99%BD%E5%BA%95%E8%AF%81%E4%BB%B6%E7%85%A7.jpg" alt="证件照" style="height: 200px; width: 150px;" />
     </div>
 </div>
+
+
+
+
+
 ## 教育经历
 
-##### 教育经历-1
+### 教育经历-1
 
 <table>
     <tr>
-        <td style="width:50%"><b>学校: 西北工业大学</b></td>
+        <td style="width:50%"><b>学校: 西北工业大学 985工程高校</b></td>
         <td>院系与专业: 软件学院--软件工程</td>
     </tr>
     <tr>
@@ -81,14 +86,17 @@
     </tr>
 </table>
 
+目前已**推免**至软件学院继续深造
 
-目前已**推免**至本院继续深造
+
+
+
 
 ## 技术栈
 
 + 完成了软件工程基础的**系统学习**，熟知软件工程**敏捷开发**的基本流程，掌握从**需求管理**到**测试交付**的系列知识，有课程项目开发的完整经验，有使用**各类文档**协助开发工作的习惯。
 + 熟练掌握**Java中间件与后端开发**。对以**SpringBoot**为核心的技术栈有较丰富的使用经验。初步了解并会使用**SpringCloudAlibaba**的系列中间件，有开发经验。
-+ 熟悉并熟练使用关系型数据库**MySQL**，在遇到问题时能结合源码查找原因。项目中常用的ORM框架是MyBatisPlus。了解分布式数据库**PolarDBX**。
++ 熟悉并熟练使用关系型数据库**MySQL**，了解binlog日志解析和数据复制与迁移，在遇到问题时能结合源码查找原因。项目中常用的ORM框架是MyBatisPlus。了解业界主流的基于MySQL的**分布式数据库**。
 + 熟悉非关系型数据库**Redis,ElasticSeach**。在项目开发中有实际的使用经验。
 + 了解**Docker**。能够使用镜像仓库管理镜像制品，能过通过容器操作部署、管理与更新微服务应用。
 + 了解**Kubernetes**，对云原生有一定了解。
@@ -97,9 +105,13 @@
 + 了解**Nginx**的基础使用，能够配置基本的网页解析、SSL加密与负载均衡。
 + 对CentOS与Almalinux有了解。有自己的阿里云服务器ECS/SWAS，云数据库RDS以与阿里云OSS。有站点搭建的相关经验。了解阿里云短信、阿里云OCR等系列服务。能熟练对接阿里系第三方服务接口。
 
+
+
+
+
 ## 实习经历
 
-##### 实习经历-1-2023暑期实习
+### 实习经历-1-2023暑期实习
 
 <table>
     <tr>
@@ -116,7 +128,7 @@
            	实习岗位: 数据库中间件开发实习生
         </td>
         <td>
-            产品链接: <a style="text-decoration: none; color: black" href="https://www.huaweicloud.com/product/drs.html">https://www.huaweicloud.com/product/drs.html</a>
+            产品链接: <a style="text-decoration: none;" href="https://www.huaweicloud.com/product/drs.html">https://www.huaweicloud.com/product/drs.html</a>
         </td>
     </tr>
     <tr>
@@ -139,7 +151,7 @@
                     <ul>
                         <li>负责分布式数据库如GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研，贡献内网镜像若干</li>
                 		<li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antlr对PolarDBX的特殊DDL语法进行解析适配</li>
-                        <li>适配PerconaXtraDBCluster的部分LogEvent</li>
+                        <li>适配Percona XtraDB Cluster的部分LogEvent</li>
                     </ul>
                 </li>
                 <li>
@@ -172,7 +184,9 @@
     </tr>
 </table>
 
-##### 实习经历-2-2023冬季实习
+
+
+### 实习经历-2-2023冬季实习
 
 <table>
     <tr>
@@ -199,17 +213,37 @@
                 <strong>项目简介:</strong><br>
             本项目为四川华迪实习期间完成项目。 通过爬虫从提供餐饮评估信息的网页的公开接口中获得西安各商圈的餐饮行业的有关信息。在经过一定的分析后展现在数据中台上，提供基于区划或类别的排序功能。同时为用户提供分类、关键字、基于地理位置的检索功能。 <br>
                 项目技术栈：后端主要使用了SpringBoot + MybatisPlus + ElasticSearch <br>
-            <strong>项目地址:</strong><br>
-            <a style="text-decoration: none; color: black" href="https://github.com/WangMinan/bigdata_practice">https://github.com/WangMinan/bigdata_practice</a>
+                <strong>项目地址:</strong><br>
+                <a style="text-decoration: none;" href="https://github.com/WangMinan/bigdata_practice">https://github.com/WangMinan/bigdata_practice</a>
             </p>
         </td>
     </tr>
 </table>
 
 
+
+
+
 ## 项目经历
 
-##### 项目经历-1
+### 项目经历-1
+
+<table>
+    <tr>
+        <td style="width:50%">项目名称: Alibaba-Canal</td>
+        <td>项目链接: <a href="https://github.com/alibaba/canal">Canal</a></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <b>贡献内容:</b><br/>
+            按照 <a style="text-decoration: none;" href="https://github.com/alibaba/canal/wiki/BinlogChange%28MySQL8%29">官方文档格式</a> 修复binlog_row_value_options=partial_json场景下的binlog解析异常，<a style="text-decoration: none;" href="https://github.com/alibaba/canal/pull/5018">PR</a> 已被合入主分支。
+        </td>
+    </tr>
+</table>
+
+
+
+### 项目经历-2
 
 <table>
     <tr>
@@ -226,6 +260,8 @@
         		产品所有人(PO)，引入项目并确认需求边界。<br>
 				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br>
 				完成了基于Github Actions与<b>Kubernetes</b>的项目部署 <br>
+            </p>
+            <p>
                 <b>项目描述:</b> <br>
                 本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
                 本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br>
@@ -241,18 +277,24 @@
                     <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
                     <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
             	</ul>
-				<b>项目架构图:</b><br>
-				<img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/><br>
-	          	<b>项目地址:</b><br>
-	            <a style="text-decoration: none; color: black"  href="https://github.com/npu-apartment-management-system-team">
-	                https://github.com/npu-apartment-management-system-team/repositories
-	            </a>
+            </p>
+            <p>
+                <b>项目架构图:</b><br>
+                <img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/><br>
+    		</p>
+    		<p>
+                <b>项目地址:</b><br>
+                <a style="text-decoration: none;" href="https://github.com/npu-apartment-management-system-team">
+                    https://github.com/npu-apartment-management-system-team/repositories
+                </a>
+            </p>
 	    </td>
 	</tr>
 </table>
 
 
-##### 项目经历-2
+
+### 项目经历-3
 
 <table>
     <tr>
@@ -264,52 +306,68 @@
     </tr>
     <tr>
         <td colspan="2">
-            <strong>项目职责:</strong><br>
-            项目组长，负责课程项目的技术选型与架构设计。<br>
-            完成了从前端到后端几乎所有代码编写工作。<br>
-            完成了基于Github Actions与Docker的项目分布式部署 <br>
-            <strong>项目描述:</strong> <br>
-            本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
-            由于我校地处长安远郊，该软件为我校学生提供了一个<b>拼车平台</b>。
-            软件用户分为<b>司机、乘客与管理员</b>三个角色，用户可以同时是司机与乘客。
-            软件为司机提供了发布拼车行程，筛选乘客的功能。
-            为乘客提供了搜索拼车行程，与司机聊天协商，选择拼车行程，拼车订单管理以及付款功能。
-            管理员则具有导出拼车情况表单与表彰司机的权限。<br>
-            项目拆分为<b>网关、auth服务、鉴权SDK、用户信息服务、行程服务、订单服务、支付服务</b>等多个微服务模块，
-            通过Docker-Compose配合DockerHub个人仓库进行部署。<br>
-            <ul>
-                <li>项目使用nacos作为注册与配置中心，每个服务模块均部署了多个实例</li>
-                <li>auth服务使用了SpringSecurity结合JWT完成了基础的鉴权操作，使用了阿里云SMS实现短信验证码登录，使用了支付宝第三方OAuth实现了支付宝登录。</li>
-                <li>行程服务检索使用了基于ElasticSearch的搜索，同时通过Redis哨兵集群缓存数据，并做了缓存击穿与缓存雪崩的预防。</li>
-                <li>支付服务接入了支付宝，提供了订单查询，订单支付等解决方案。</li>
-                <li>使用基于XXL-JOB的分片广播机制设置了过期聊天记录定时清除，未完成数据操作重试与支付订单关闭的定时任务。</li>
-            </ul>
-            <strong>项目技术栈:</strong><br>
-            <ul>
-                <li>
-                    前端主要使用了Vue3 + Vite + Vant(司机与乘客) + ElementPlus(管理员) + 高德地图SDK
-                </li>
-                <li>
-                    后端主要使用了
-                    <ul>
-                        <li>SpringBoot3 + SpringCloud的一些基础的中间件 + MySQL + Redis + ElasticSearch + XXL-JOB</li>
-                        <li>引入了阿里云OSS，阿里云OCR，支付宝支付的SDK</li>
-                    </ul>
-                </li>
-            </ul>
-            <strong>项目地址:</strong><br>
-            <a style="text-decoration: none; color: black"
-                href="https://github.com/orgs/npu-carpooling-system-team/repositories">
-                https://github.com/orgs/npu-carpooling-system-team/repositories
-            </a>
+            <p>
+               <b>项目职责:</b><br>
+                项目组长，负责课程项目的技术选型与架构设计。<br>
+                完成了从前端到后端几乎所有代码编写工作。<br>
+                完成了基于Github Actions与Docker的项目分布式部署 <br> 
+            </p>
+            <p>
+                <b>项目描述:</b> <br>
+                本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
+                由于我校地处长安远郊，该软件为我校学生提供了一个<b>拼车平台</b>。
+                软件用户分为<b>司机、乘客与管理员</b>三个角色，用户可以同时是司机与乘客。
+                软件为司机提供了发布拼车行程，筛选乘客的功能。
+                为乘客提供了搜索拼车行程，与司机聊天协商，选择拼车行程，拼车订单管理以及付款功能。
+                管理员则具有导出拼车情况表单与表彰司机的权限。<br>
+                项目拆分为<b>网关、auth服务、鉴权SDK、用户信息服务、行程服务、订单服务、支付服务</b>等多个微服务模块，
+                通过Docker-Compose配合DockerHub个人仓库进行部署。<br>
+                <ul>
+                    <li>项目使用nacos作为注册与配置中心，每个服务模块均部署了多个实例</li>
+                    <li>auth服务使用了SpringSecurity结合JWT完成了基础的鉴权操作，使用了阿里云SMS实现短信验证码登录，使用了支付宝第三方OAuth实现了支付宝登录。</li>
+                    <li>行程服务检索使用了基于ElasticSearch的搜索，同时通过Redis哨兵集群缓存数据，并做了缓存击穿与缓存雪崩的预防。</li>
+                    <li>支付服务接入了支付宝，提供了订单查询，订单支付等解决方案。</li>
+                    <li>使用基于XXL-JOB的分片广播机制设置了过期聊天记录定时清除，未完成数据操作重试与支付订单关闭的定时任务。</li>
+                </ul>
+            </p>
+            <p>
+                <b>项目技术栈:</b><br>
+                <ul>
+                    <li>
+                        前端主要使用了Vue3 + Vite + Vant(司机与乘客) + ElementPlus(管理员) + 高德地图SDK
+                    </li>
+                    <li>
+                        后端主要使用了
+                        <ul>
+                            <li>SpringBoot3 + SpringCloud的一些基础的中间件 + MySQL + Redis + ElasticSearch + XXL-JOB</li>
+                            <li>引入了阿里云OSS，阿里云OCR，支付宝支付的SDK</li>
+                        </ul>
+                    </li>
+                </ul>
+    		</p>
+            <p>
+               <strong>项目地址:</strong><br>
+                <a style="text-decoration: none;"
+                    href="https://github.com/orgs/npu-carpooling-system-team/repositories">
+                    https://github.com/orgs/npu-carpooling-system-team/repositories
+                </a> 
+			</p> 
         </td>
     </tr>
 </table>
+
+
+
+
 
 ## 学科竞赛
 
 + 2022陕西省大学生创新创业训练计划-基于心理诱导的监所警员心理保障与管理系统-省级合格结题
 + 2023-第十八届“挑战杯”全国大学生课外学术科技作品竞赛“揭榜挂帅”专项赛-基于信创的学习迁移模型构建知识图谱-全国二等奖
+
+
+
+
 
 ## 奖励与荣誉
 
@@ -324,9 +382,11 @@
   + 勤奋博学先进个人
   + 学业先进个人
 
-## 其他信息
 
-##### 语言水平
+
+
+
+## 语言水平
 
 <table>
     <tr>
