@@ -37,9 +37,10 @@
         </table>
     </div>
     <div style="width=30%">
-    	<img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/%E7%99%BD%E5%BA%95%E8%AF%81%E4%BB%B6%E7%85%A7.jpg" alt="证件照" style="height: 200px; width: 150px;" />
+    	<img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/newAvatar.jpg" alt="证件照" style="height: 200px; width: 150px;" />
     </div>
 </div>
+
 
 
 
@@ -95,15 +96,16 @@
 ## 技术栈
 
 + 完成了软件工程基础的**系统学习**，熟知软件工程**敏捷开发**的基本流程，掌握从**需求管理**到**测试交付**的系列知识，有课程项目开发的完整经验，有使用**各类文档**协助开发工作的习惯。
-+ 熟练掌握**Java中间件与后端开发**。对以**SpringBoot**为核心的技术栈有较丰富的使用经验。初步了解并会使用**SpringCloudAlibaba**的系列中间件，有开发经验。
-+ 熟悉并熟练使用关系型数据库**MySQL**，了解binlog日志解析和数据复制与迁移，在遇到问题时能结合源码查找原因。项目中常用的ORM框架是MyBatisPlus。了解业界主流的基于MySQL的**分布式数据库**。
++ 熟练掌握**Java**开发技术，能够使用Java进行**中间件**与**后端**开发。能进行基础的软件架构设计。
++ 对以**SpringBoot**为核心的技术栈有较丰富的使用经验。初步了解并会使用**SpringCloudAlibaba**的系列中间件，有开发经验。
++ 熟悉并熟练使用关系型数据库**MySQL**，了解binlog日志解析和数据复制与迁移，在遇到数据库问题时能结合源码查找原因。项目中常用的ORM框架是MyBatisPlus。了解业界主流的基于MySQL的**分布式数据库**。
 + 熟悉非关系型数据库**Redis,ElasticSeach**。在项目开发中有实际的使用经验。
 + 了解**Docker**。能够使用镜像仓库管理镜像制品，能过通过容器操作部署、管理与更新微服务应用。
 + 了解**Kubernetes**，对云原生有一定了解。
 + 熟悉**Vue3**框架，对应组件库Element Plus、Vant，以及有关路由与存储中间件，可以独立进行前端网页开发，对**NodeJs**有应用上的了解。
 + 对项目**CI/CD**与工作流有一定的了解，能够通过**编写GitHub Actions脚本**部署前端或后端应用。
 + 了解**Nginx**的基础使用，能够配置基本的网页解析、SSL加密与负载均衡。
-+ 对CentOS与Almalinux有了解。有自己的阿里云服务器ECS/SWAS，云数据库RDS以与阿里云OSS。有站点搭建的相关经验。了解阿里云短信、阿里云OCR等系列服务。能熟练对接阿里系第三方服务接口。
++ 有自己的阿里云服务器ECS/SWAS，云数据库RDS与阿里云OSS。有站点搭建的相关经验。了解阿里云短信、阿里云OCR等系列服务。能熟练对接阿里系第三方服务接口。
 
 
 
@@ -136,53 +138,59 @@
             <b>工作内容:</b>
             <ul>
                 <li>
-                    <p>
-                        原理学习
-                    </p>
+                    原理学习
                     <ul>
                         <li>结合MySQL源码，了解LogEvent在binlog中的记录格式，研究了部分参数在MySQL中的作用</li>
                         <li>阅读Alibaba-Canal源码，了解Java语言下的binlog解析原理</li>
+                        <li>学习基于Antlr的词法解析与语法分析，对比Druid的实现异同</li>
                     </ul>
                 </li>
                 <li>
-                    <p>
-                        新链路支持
-                    </p>
+                    新链路支持
                     <ul>
-                        <li>负责分布式数据库如GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研，贡献内网镜像若干</li>
+                        <li>负责分布式数据库如GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研</li>
                 		<li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antlr对PolarDBX的特殊DDL语法进行解析适配</li>
                         <li>适配Percona XtraDB Cluster的部分LogEvent</li>
                     </ul>
                 </li>
                 <li>
-                    <p>
-                        问题修复
-                    </p>
+                    问题修复
                     <ul>
                         <li>结合MySQL源码修复在binlog_row_value_options=partial_json场景下的binlog解析异常，主要是在update场景下利用before-image对类似statement格式的after-image进行还原。</li>
                     </ul>
                 </li>
                 <li>
-                    <p>
-                        性能优化
-                    </p>
+                    性能优化：
                     <ul>
                         <li>编写压力测试工具，对产品模块进行压力测试，了解产品性能瓶颈。</li>
                         <li>帮助定位大JSON解析OOM问题</li>
                     </ul>
                 </li>
                 <li>
-                    <p>
-                        公共工作
-                    </p>
+                    公共工作
                     <ul>
-                        <li>负责项目从JDK8向JDK17的迁移适配工作，切换javafx和部分sun包下依赖</li>
+                        <li>
+                            负责项目从JDK8向JDK17的迁移适配工作
+                            <ul>
+                                <li>
+                                    切换javafx和部分sun包下依赖。
+                                </li>
+                                <li>
+                                    修改运行脚本，添加JVM参数以适配JDK9后引入的模块化封装隔离机制。
+                                </li>
+                                <li>
+                                    修正部分调用类加载器的反射代码，适配模块化封装隔离机制造成的类加载异常。
+                                </li>
+                            </ul>
+                        </li>
+                        <li>在测试环境编制并维护镜像</li>
                     </ul>
                 </li>
             </ul>
         </td>
     </tr>
 </table>
+
 
 
 
