@@ -5,8 +5,8 @@
 </div>
 
 ## 个人信息
-<div style="display:flex; justify-content: space-between;">
-    <div style="width:80%">
+<div style="display: flex; height: 240px; width: 100%">
+    <div style="width: 85%">
         <table>
             <tr>
                 <td style="width:50%">姓名: 王旻安 </td>
@@ -36,12 +36,8 @@
             </tr>
         </table>
     </div>
-    <div style="width=30%">
-    	<img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/newAvatar.jpg" alt="证件照" style="height: 200px; width: 150px;" />
-    </div>
+    <div style="width: 15%; background-image: url('https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/newAvatar.jpg'); background-size: cover; backgrund-position: center; background-repeat: no-repeat" />
 </div>
-
-
 
 
 
@@ -236,7 +232,7 @@
 
 ### 项目经历-1
 
-<table>
+<table style="width: 100%">
     <tr>
         <td style="width:50%">项目名称: Alibaba-Canal</td>
         <td>项目链接: <a href="https://github.com/alibaba/canal">Canal</a></td>
@@ -248,6 +244,7 @@
         </td>
     </tr>
 </table>
+
 
 
 
