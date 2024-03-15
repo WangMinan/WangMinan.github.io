@@ -5,6 +5,7 @@
 </div>
 
 ## 个人信息
+
 <div style="display:flex; justify-content: space-between;">
     <div style="width:80%">
         <table>
@@ -25,25 +26,21 @@
                 <td>紧急联系人电话: <a style="text-decoration: none; color: black"  href="tel:13588360960">13588360960</a></td>
             </tr>
             <tr>
-                <td colspan="2">           
+                <td colspan="2">
                        政治面貌: 中共预备党员
                 </td>
             </tr>
             <tr>
-                <td colspan="2">           
-                       GitHub个人主页: <a style="text-decoration: none;" href="https://github.com/WangMinan">https://github.com/wangminan</a> 
+                <td colspan="2">
+                       GitHub个人主页: <a style="text-decoration: none;" href="https://github.com/WangMinan">https://github.com/wangminan</a>
                 </td>
             </tr>
         </table>
     </div>
     <div style="width=30%">
-    	<img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/%E7%99%BD%E5%BA%95%E8%AF%81%E4%BB%B6%E7%85%A7.jpg" alt="证件照" style="height: 200px; width: 150px;" />
+     <img src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/newAvatar.jpg" alt="证件照" style="height: 200px; width: 150px;" />
     </div>
 </div>
-
-
-
-
 
 ## 教育经历
 
@@ -73,24 +70,28 @@
                     专业课程: 软件测试、网络与分布式计算、Web应用系统开发技术与实践、互联网系统开发方向前沿、软件需求工程、软件项目组织与管理、软件工程文档写作
                 </li>
                 <li>
-					实践课程: 基于开源和群智的软件工程实践、软件开发基础能力训练、软件开发综合能力训练
+     实践课程: 基于开源和群智的软件工程实践、软件开发基础能力训练、软件开发综合能力训练
                 </li>
             </ul>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <b>毕业设计：</b> <br>
-            嵌入式容器云监控系统的设计与实现
+            <b>毕业设计(正在开发中)：</b> <br>
+            <p>
+                嵌入式容器云监控系统的设计与实现
+            </p>
+            <b>项目介绍：</b> <br>
+            <p>
+                本项目方向为工程设计类选题，项目名称为"Άρκτουρος"（Arktouros/玉衡）。在希腊神话中，Άρκτουρος是大熊座中最亮的星星，代表着守护和指引的意义。Arktouros项目将是我的本科毕业设计，这是一个<b>轻量级的APM系统</b>，适配中航工业西安计算所的天脉3操作系统。
+            </p>
+            <b>项目链接：</b> <br>
+            <a style="text-decoration: none;" href="https://github.com/WangMinan/Arktouros">https://github.com/WangMinan/Arktouros</a>
         </td>
     </tr>
 </table>
 
 目前已**推免**至软件学院继续深造
-
-
-
-
 
 ## 技术栈
 
@@ -105,10 +106,6 @@
 + 对项目**CI/CD**与工作流有一定的了解，能够通过**编写GitHub Actions脚本**部署前端或后端应用。
 + 了解**Nginx**的基础使用，能够配置基本的网页解析、SSL加密与负载均衡。
 + 有自己的阿里云服务器ECS/SWAS，云数据库RDS与阿里云OSS。有站点搭建的相关经验。了解阿里云短信、阿里云OCR等系列服务。能熟练对接阿里系第三方服务接口。
-
-
-
-
 
 ## 实习经历
 
@@ -126,7 +123,7 @@
     </tr>
     <tr>
         <td>
-           	实习岗位: 数据库中间件开发实习生
+            实习岗位: 数据库中间件开发实习生
         </td>
         <td>
             产品链接: <a style="text-decoration: none;" href="https://www.huaweicloud.com/product/drs.html">https://www.huaweicloud.com/product/drs.html</a>
@@ -148,7 +145,7 @@
                     新链路支持
                     <ul>
                         <li>负责分布式数据库如GoldenDB链路，PolarDBX链路以及TDSQL链路迁移调研</li>
-                		<li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antlr对PolarDBX的特殊DDL语法进行解析适配</li>
+                  <li>阅读PolarDBX-CDC部分源码，编写PolarDBX链路迁移部分代码，主要是利用antlr对PolarDBX的特殊DDL语法进行解析适配</li>
                         <li>适配Percona XtraDB Cluster的部分LogEvent</li>
                     </ul>
                 </li>
@@ -190,9 +187,6 @@
     </tr>
 </table>
 
-
-
-
 ### 实习经历-2-2023冬季实习
 
 <table>
@@ -210,26 +204,27 @@
                 <strong>工作职责:</strong><br>
                 项目组长，负责实习项目的需求分析与架构设计。<br>
                 <ul>
-                   	<li>
+                    <li>
                         完成后端几乎所有代码编写工作。 同时负责基于GitHub Actions的后端CI/CD.
-                    </li> 
+                    </li>
                     <li>
                         通过SonarQube完成代码规范性检查并修正代码异味。
                     </li>
-            	</ul>
-                <strong>项目简介:</strong><br>
-            本项目为四川华迪实习期间完成项目。 通过爬虫从提供餐饮评估信息的网页的公开接口中获得西安各商圈的餐饮行业的有关信息。在经过一定的分析后展现在数据中台上，提供基于区划或类别的排序功能。同时为用户提供分类、关键字、基于地理位置的检索功能。 <br>
-                项目技术栈：后端主要使用了SpringBoot + MybatisPlus + ElasticSearch <br>
-                <strong>项目地址:</strong><br>
+             </ul>
+                <b>项目简介:</b><br>
+                <p>
+                    本项目为四川华迪实习期间完成项目。 通过爬虫从提供餐饮评估信息的网页的公开接口中获得西安各商圈的餐饮行业的有关信息。在经过一定的分析后展现在数据中台上，提供基于区划或类别的排序功能。同时为用户提供分类、关键字、基于地理位置的检索功能。
+             </p>
+                <b>项目技术栈:</b><br>
+             <p>
+                    后端主要使用了SpringBoot + MybatisPlus + ElasticSearch
+             </p>
+                <b>项目地址:</b><br>
                 <a style="text-decoration: none;" href="https://github.com/WangMinan/bigdata_practice">https://github.com/WangMinan/bigdata_practice</a>
             </p>
         </td>
     </tr>
 </table>
-
-
-
-
 
 ## 项目经历
 
@@ -237,19 +232,22 @@
 
 <table style="width: 100%">
     <tr>
-        <td style="width:50%">项目名称: Alibaba-Canal</td>
+        <td style="width:50%">项目名称: <a style="text-decoration: none;" href="https://github.com/alibaba/canal">Alibaba-Canal</a></td>
         <td>项目链接: <a href="https://github.com/alibaba/canal">Canal</a></td>
     </tr>
     <tr>
         <td colspan="2">
-            <b>贡献内容:</b><br/>
-            按照 <a style="text-decoration: none;" href="https://github.com/alibaba/canal/wiki/BinlogChange%28MySQL8%29">官方文档格式</a> 修复binlog_row_value_options=partial_json场景下的binlog解析异常，<a style="text-decoration: none;" href="https://github.com/alibaba/canal/pull/5018">PR</a> 已被合入主分支。
+            <b>项目介绍:</b>
+            <p>
+                canal [kə'næl]，译意为水道/管道/沟渠，主要用途是基于 MySQL 数据库增量日志解析，提供增量数据订阅和消费
+            </p>
+            <b>贡献内容:</b>
+            <p>
+                按照 <a style="text-decoration: none;" href="https://github.com/alibaba/canal/wiki/BinlogChange%28MySQL8%29">官方文档格式</a> 修复binlog_row_value_options=partial_json场景下的binlog解析异常，<a style="text-decoration: none;" href="https://github.com/alibaba/canal/pull/5018">PR</a> 已被合入主分支。
+            </p>
         </td>
     </tr>
 </table>
-
-
-
 
 ### 项目经历-2
 
@@ -264,43 +262,39 @@
     <tr>
         <td colspan="2">
             <p>
-                <b>项目职责:</b><br> 
-        		产品所有人(PO)，引入项目并确认需求边界。<br>
-				完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br>
-				完成了基于Github Actions与<b>Kubernetes</b>的项目部署 <br>
+                <b>项目职责:</b><br>
+          产品所有人(PO)，引入项目并确认需求边界。<br>
+    完成产品客户端以及后端几乎所有代码编写工作-是的确实基本都是我写的。<br>
+    完成了基于Github Actions与<b>Kubernetes</b>的项目部署 <br>
             </p>
             <p>
-                <b>项目描述:</b> <br>
-                本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
+                <b>项目描述:</b>
+                <p>
+                    本项目为<b>软件开发综合能力训练</b>的课程设计。是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
                 本项目需求脱胎于上海铁路局杭州房建公寓段于2022上半年度招标的公寓管理系统。平台用户分为<b>房建公寓段管理员群、外部住宿单位管理员群、住宿职工</b>等多重角色。其中，房建公寓段管理员群分为申请管理员、宿舍调配员、财务人员、公寓管理员等角色，外部住宿单位管理员群分为申请管理员、财务管理员等角色。员工则可以使用该系统维护个人信息、查看与提交申请、缴纳住宿费用等。<br>
                 为实现上述需求，我们对项目进行了服务拆分。项目拆分为<b>网关、授权服务、用户管理服务、宿舍实体管理服务、申请电子流服务、财务服务、站内信服务以及鉴权模块</b>。
+            </p>
                 <ul>
                     <li>项目吸收了<a href="https://npu-carpooling-system-team.github.io/carpooling-document/#/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93?id=_71-%e5%ae%95%e6%9c%ba">拼车项目Nacos注册中心崩溃导致宿主机所有服务崩溃的惨痛经验</a>，配置了三个节点组成的Nacos注册中心集群，提供服务发现与配置管理</li>
-                   	<li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
+                    <li>授权服务不仅实现了用户名密码、短信与支付宝第三方登录，同时在注册阶段引入了身份证识别与人证核验服务，确认住宿职工身份。</li>
                     <li>实体管理部分使用了<b>alibaba-canal搭配RabbitMQ进行数据一致性同步</b>，将宿舍数据同步到ElasticSearch与Redis。ElasticSearch对外提供基于工作单位的宿舍就近匹配与搜索；Redis哨兵集群则用于热点数据缓存，同时进行了缓存击穿与缓存雪崩的预防。</li>
                     <li>申请电子流服务使用了<b>阿里云SchedulerX2</b>实现了超期申请自动关闭的功能。</li>
                     <li>财务服务使用POI配合阿里云OSS实现表单导出。使用了阿里云SchedulerX2实现了定期生成住宿费订单的功能。同时使用RabbitMQ的延迟队列插件实现了超时支付宝订单自动关闭的功能。</li>
-             		<li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
+               <li>站内信服务使用了多张MySQL数据表，完成了消息撤回、单点消息删除，消息接收状态查看的功能。</li>
                     <li>由于涉及到跨服务大事务，项目中<b>使用alibaba-seata进行分布式事务管理</b>。</li>
                     <li>由于涉及到调用阿里云外部服务，存在计费项，因此在敏感接口上我<b>使用了alibaba-sentinel进行流控</b>。</li>
                     <li>我使用了由一个ectd节点和三个worker节点组成的<b>K8S集群</b>进行了项目部署。配合GitHub-Actions工作流实现了后端服务的无感更新。</li>
-            	</ul>
+             </ul>
             </p>
-            <p>
-                <b>项目架构图:</b><br>
-                <img alt="哦吼,图片不见了" src="https://wangminan-files.oss-cn-hongkong.aliyuncs.com/default/npu-apartment-architecture.png"/><br>
-    		</p>
-    		<p>
+      <p>
                 <b>项目地址:</b><br>
                 <a style="text-decoration: none;" href="https://github.com/npu-apartment-management-system-team">
                     https://github.com/npu-apartment-management-system-team/repositories
                 </a>
             </p>
-	    </td>
-	</tr>
+     </td>
+ </tr>
 </table>
-
-
 
 ### 项目经历-3
 
@@ -318,11 +312,12 @@
                <b>项目职责:</b><br>
                 项目组长，负责课程项目的技术选型与架构设计。<br>
                 完成了从前端到后端几乎所有代码编写工作。<br>
-                完成了基于Github Actions与Docker的项目分布式部署 <br> 
+                完成了基于Github Actions与Docker的项目分布式部署 <br>
             </p>
             <p>
-                <b>项目描述:</b> <br>
-                本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
+                <b>项目描述:</b>
+                <p>
+                   本项目为<b>互联网系统开发方向前沿</b>的课程设计。也是一个基于<b>SpringCloud2022</b>的分布式微服务系统。<br>
                 由于我校地处长安远郊，该软件为我校学生提供了一个<b>拼车平台</b>。
                 软件用户分为<b>司机、乘客与管理员</b>三个角色，用户可以同时是司机与乘客。
                 软件为司机提供了发布拼车行程，筛选乘客的功能。
@@ -330,6 +325,7 @@
                 管理员则具有导出拼车情况表单与表彰司机的权限。<br>
                 项目拆分为<b>网关、auth服务、鉴权SDK、用户信息服务、行程服务、订单服务、支付服务</b>等多个微服务模块，
                 通过Docker-Compose配合DockerHub个人仓库进行部署。<br>
+             </p>
                 <ul>
                     <li>项目使用nacos作为注册与配置中心，每个服务模块均部署了多个实例</li>
                     <li>auth服务使用了SpringSecurity结合JWT完成了基础的鉴权操作，使用了阿里云SMS实现短信验证码登录，使用了支付宝第三方OAuth实现了支付宝登录。</li>
@@ -352,30 +348,22 @@
                         </ul>
                     </li>
                 </ul>
-    		</p>
+      </p>
             <p>
                <strong>项目地址:</strong><br>
                 <a style="text-decoration: none;"
                     href="https://github.com/orgs/npu-carpooling-system-team/repositories">
                     https://github.com/orgs/npu-carpooling-system-team/repositories
-                </a> 
-			</p> 
+                </a>
+   </p>
         </td>
     </tr>
 </table>
-
-
-
-
 
 ## 学科竞赛
 
 + 2022陕西省大学生创新创业训练计划-基于心理诱导的监所警员心理保障与管理系统-省级合格结题
 + 2023-第十八届“挑战杯”全国大学生课外学术科技作品竞赛“揭榜挂帅”专项赛-基于信创的学习迁移模型构建知识图谱-全国二等奖
-
-
-
-
 
 ## 奖励与荣誉
 
@@ -389,10 +377,6 @@
   + 校级优秀大学生
   + 勤奋博学先进个人
   + 学业先进个人
-
-
-
-
 
 ## 语言水平
 
